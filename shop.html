@@ -58,8 +58,8 @@
           <div class="dropdown-menu dropdown-menu-right " aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#" data-target="#login" data-toggle="modal">Login</a>
             <a class="dropdown-item" href="#" data-target="#register" data-toggle="modal">Register</a>
-            <a class="dropdown-item" href="#">My Orders</a>
-            <a class="dropdown-item" href="#">Account Settings</a>
+            <a class="dropdown-item" href="myorders.html">My Orders</a>
+            <a class="dropdown-item" href="account.html">Account Settings</a>
           </div>
         </div>
       </div>
@@ -181,54 +181,113 @@
         <div class="card">
           <div class="card-header" id="headingOne">
             <h2 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-               Select Size
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Size
               </button>
             </h2>
           </div>
-        </div>
-        </div>
-        <div class="accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Select Pattern Type
-                </button>
-              </h2>
-            </div>
-          </div>
-          </div>
-          <div class="accordion" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Select Collar
-                  </button>
-                </h2>
+          <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                 XS
+                </label>
               </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                 S
+                </label>
+              </div> 
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  M
+                </label>
+              </div> 
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                 L
+                </label>
+              </div> 
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  XL
+                </label>
+              </div> 
             </div>
-            </div>
+          </div>
+    
+        </div>
+        </div>
+       
+       
             <div class="accordion" id="accordionExample">
               <div class="card">
-                <div class="card-header" id="headingOne">
+                <div class="card-header" id="heading4">
                   <h2 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Select Sleeve Length(cm)
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                       Sleeve Length(cm)
                     </button>
                   </h2>
+                </div>
+                <div id="collapse4" class="collapse " aria-labelledby="heading4" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Short
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Three Quarter
+                      </label>
+                    </div> 
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Full
+                      </label>
+                    </div> 
+                  </div>
                 </div>
               </div>
               </div>
               <div class="accordion" id="accordionExample">
                 <div class="card">
-                  <div class="card-header" id="headingOne">
+                  <div class="card-header" id="heading5">
                     <h2 class="mb-0">
-                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Select Style
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                         Style
                       </button>
                     </h2>
+                  </div>
+                  <div id="collapse5" class="collapse " aria-labelledby="heading5" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                         Fashion
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                         Casual
+                        </label>
+                      </div> 
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Novelty
+                        </label>
+                      </div> 
+                    </div>
                   </div>
                 </div>
                 </div>
@@ -236,10 +295,27 @@
                   <div class="card">
                     <div class="card-header" id="headingOne">
                       <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Select Hooded
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                           Hooded
                         </button>
                       </h2>
+                    </div>
+                    <div id="collapse6" class="collapse " aria-labelledby="heading9" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                           Yes
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                           No
+                          </label>
+                        </div> 
+                       
+                      </div>
                     </div>
                   </div>
                   </div>
@@ -247,21 +323,114 @@
                     <div class="card">
                       <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
-                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Select Fabric Type
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                             Fabric Type
                           </button>
                         </h2>
+                      </div>
+                      <div id="collapse7" class="collapse " aria-labelledby="heading7" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                             Batik
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Broadcloth
+                            </label>
+                          </div> 
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Canvas
+                            </label>
+                          </div> 
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Chiffon
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Denim
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Dobby
+                            </label>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     </div>
                     <div class="accordion" id="accordionExample">
                       <div class="card">
-                        <div class="card-header" id="headingOne">
+                        <div class="card-header" id="heading8">
                           <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Select Color
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                               Color
                             </button>
                           </h2>
+                        </div>
+                        <div id="collapse8" class="collapse " aria-labelledby="heading9" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                               Red
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                               Green
+                              </label>
+                            </div> 
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                Black
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                White
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                Yellow
+                              </label>
+                            </div> 
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                Purple
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                Pink
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                Brown
+                              </label>
+                            </div>
+                                 
+                          </div>
                         </div>
                       </div>
                       </div>
@@ -269,10 +438,33 @@
                         <div class="card">
                           <div class="card-header" id="headingOne">
                             <h2 class="mb-0">
-                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Select Brands
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                 Brands
                               </button>
                             </h2>
+                            
+                          </div>
+                          <div id="collapse9" class="collapse " aria-labelledby="heading9" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                 SIMWOOD
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                 THE COOLMIND
+                                </label>
+                              </div> 
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  COODBONY
+                                </label>
+                              </div> 
+                            </div>
                           </div>
                         </div>
                         </div>
@@ -280,13 +472,37 @@
                           <div class="card">
                             <div class="card-header" id="headingOne">
                               <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Select Material
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                   Material
                                 </button>
                               </h2>
+                              
+                            </div>
+                            <div id="collapse10" class="collapse " aria-labelledby="heading10" data-parent="#accordionExample">
+                              <div class="card-body">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                  <label class="form-check-label" for="defaultCheck1">
+                                   Cotton
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                  <label class="form-check-label" for="defaultCheck1">
+                                    Bamboo Fiber
+                                  </label>
+                                </div> 
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                  <label class="form-check-label" for="defaultCheck1">
+                                    Acetate
+                                  </label>
+                                </div> 
+                              </div>
                             </div>
                           </div>
                           </div>
+                          
                           
 
     </div>
